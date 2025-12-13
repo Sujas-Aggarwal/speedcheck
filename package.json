@@ -1,0 +1,28 @@
+{
+  "name": "speedcheck",
+  "version": "1.0.0",
+  "description": "Cross-platform CLI to check internet speed",
+  "type": "module",
+  "bin": {
+    "speedcheck": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^11.0.0",
+    "node-fetch": "^3.3.2",
+    "ora": "^8.0.0",
+    "stream": "^0.0.3"
+  },
+  "keywords": [
+    "cli",
+    "speedtest",
+    "network"
+  ],
+  "license": "MIT"
+}
